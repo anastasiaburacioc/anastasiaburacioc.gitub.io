@@ -1,0 +1,505 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,400;1,700&display=swap");
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: no-repeat url(images/terra.jpg);
+  font-size: 2vw;
+}
+
+* {
+  font-family: "Noto Serif", serif;
+  font-style: italic;
+  font-weight: 700;
+  color: #1a465d;
+  padding: 0;
+  margin: 0;
+
+  /*for Firefox*/
+  scrollbar-color: #286a8d transparent; /* «цвет ползунка» «цвет полосы скроллбара» */
+  scrollbar-width: auto; /* толщина */
+}
+
+/*for Google, Яндекс, Safari, Opera*/
+/* полоса прокрутки (скроллбар) */
+*::-webkit-scrollbar {
+  width: 20px; /* ширина для вертикального скролла */
+  height: 0px; /* высота для горизонтального скролла */
+  background-color: transparent;
+}
+
+/* ползунок скроллбара*/
+*::-webkit-scrollbar-thumb {
+  background-color: #286a8d;
+  border-radius: 10px;
+  box-shadow: inset 1px 1px 10px #78aab9;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #457c7c;
+}
+
+/* Стрелки */
+*::-webkit-scrollbar-button:vertical:start:decrement {
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-button:vertical:end:increment {
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-button:horizontal:start:decrement {
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-button:horizontal:end:increment {
+  background-color: transparent;
+}
+
+.displayNone {
+  display: none;
+}
+
+.textTransformCapitalize {
+  text-transform: capitalize;
+}
+
+.language-bar__select {
+  padding: 5px 8px;
+}
+
+.language-bar__select_position {
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
+.language-bar__select_style {
+  outline: none;
+  border: solid 2px #113b54;
+  background-color: #e9e9e9;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.options__input {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  background: radial-gradient(ellipse at top, #ededde, transparent),
+    radial-gradient(ellipse at bottom, #c7b289, transparent),
+    radial-gradient(ellipse at left, #ece3b6, transparent),
+    radial-gradient(ellipse at right, #b88261, transparent);
+  outline: none;
+  border: none;
+  font-size: 2vw;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 22px -1px rgba(238, 233, 158, 0.99);
+  -moz-box-shadow: 0px 0px 22px -1px rgba(238, 233, 158, 0.99);
+  box-shadow: 0px 0px 22px -1px rgba(238, 233, 158, 0.99);
+}
+
+.options__input_animation {
+  position: relative;
+  top: 0px;
+}
+
+.options__items-list {
+  list-style: none;
+}
+
+.options__items-list-point {
+  padding-left: 5%;
+  cursor: pointer;
+}
+
+.options__items-list-point:hover {
+  background-color: #c7b289;
+  transition: ease-out 0.05s;
+}
+
+.options__items-list-point:active {
+  background: radial-gradient(ellipse at top, #ededde, transparent),
+    radial-gradient(ellipse at bottom, #7ab3da, transparent),
+    radial-gradient(ellipse at left, #dace95, transparent),
+    radial-gradient(ellipse at right, #5899c5, transparent);
+  transition: ease-out 0.1s;
+}
+
+.options_position {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+}
+
+.options_dimension {
+  width: 65%;
+  height: 70%;
+}
+
+.options__list_dimension {
+  width: 100%;
+  height: 100%;
+}
+
+.options__items {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at top, #ededde, transparent),
+    radial-gradient(ellipse at bottom, #c7b289, transparent),
+    radial-gradient(ellipse at left, #ece3b6, transparent),
+    radial-gradient(ellipse at right, #b88261, transparent);
+  position: relative;
+  top: 5px;
+  overflow: scroll;
+  -webkit-box-shadow: 0px 0px 22px -1px rgba(238, 233, 158, 0.99);
+  -moz-box-shadow: 0px 0px 22px -1px rgba(238, 233, 158, 0.99);
+  box-shadow: 0px 0px 22px -1px rgba(238, 233, 158, 0.99);
+  border-radius: 10px;
+}
+
+.options__list {
+  /*font-size: 20px;*/
+  border: none;
+  outline: none;
+  background: rgba(234, 237, 238, 0.4);
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 22px -1px rgba(238, 233, 158, 0.99);
+  -moz-box-shadow: 0px 0px 22px -1px rgba(238, 233, 158, 0.99);
+  box-shadow: 0px 0px 22px -1px rgba(238, 233, 158, 0.99);
+}
+
+.weather {
+  background: radial-gradient(ellipse at top, #ededde, transparent),
+    radial-gradient(ellipse at bottom, #c7b289, transparent),
+    radial-gradient(ellipse at left, #ece3b6, transparent),
+    radial-gradient(ellipse at right, #b88261, transparent);
+  text-align: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 22px -1px rgba(238, 233, 158, 0.99);
+  -moz-box-shadow: 0px 0px 22px -1px rgba(238, 233, 158, 0.99);
+  box-shadow: 0px 0px 22px -1px rgba(238, 233, 158, 0.99);
+}
+
+.weather_vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.weather__city-name {
+  text-shadow: 3px -3px 3px rgba(65, 101, 131, 0.99);
+}
+
+p,
+span[class^="weather"] {
+  padding-top: 10px;
+}
+
+.weather-col-1_position {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.weather-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.weather-display_position {
+  margin-top: 10px;
+}
+
+.weather_position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.weather_dimension {
+  width: 55%;
+  height: 45%;
+}
+
+.weather__img {
+  height: 100%;
+}
+
+.weather__img-meteo {
+  width: 20vw;
+  height: 20vw;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/*
+@media (max-height: 460px) {
+  p,
+  span[class^="weather"] {
+    padding-top: 2px;
+  }
+  .weather__city-name {
+    padding-bottom: 6px;
+  }
+  .weather__img-meteo {
+    width: 125px;
+    height: 125px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body,
+  .options__input {
+    font-size: 30px;
+  }
+  .language-bar__select_style {
+    font-size: 30px;
+  }
+  p,
+  span[class^="weather"] {
+    padding-top: 10px;
+  }
+  .weather_dimension {
+    height: 50%;
+  }
+  .weather_dimension {
+    height: 38%;
+    width: 85%;
+  }
+  .options__input_animation {
+    top: 60px;
+  }
+}
+
+@media (max-width: 825px) {
+  body,
+  .options__input {
+    font-size: 20px;
+  }
+  .language-bar__select_style {
+    font-size: 13px;
+  }
+  p,
+  span[class^="weather"] {
+    padding-top: 5px;
+  }
+  .weather_dimension {
+    height: 50%;
+  }
+  .weather__city-name {
+    padding-bottom: 10px;
+    text-shadow: 2px -2px 2px rgba(65, 101, 131, 0.99);
+  }
+  .weather__img-meteo {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+@media (max-width: 800px) {
+  body,
+  .options__input {
+    font-size: 27px;
+  }
+  .language-bar__select_style {
+    font-size: 15px;
+  }
+  p,
+  span[class^="weather"] {
+    padding-top: 7px;
+  }
+  .weather_dimension {
+    height: 35%;
+  }
+  .weather__img-meteo {
+    width: 170px;
+    height: 170px;
+  }
+}
+
+@media (max-width: 768px) {
+  .weather_dimension {
+    height: 35%;
+  }
+  .options__input_animation {
+    top: 60px;
+  }
+}
+
+@media (max-width: 662px) {
+  body,
+  .options__input {
+    font-size: 17px;
+  }
+  .language-bar__select_style {
+    font-size: 11px;
+  }
+  .weather_dimension {
+    height: 45%;
+  }
+  .weather__city-name {
+    padding-bottom: 8px;
+  }
+}
+
+@media (max-width: 630px) {
+  body,
+  .options__input {
+    font-size: 15px;
+  }
+  .language-bar__select_style {
+    font-size: 10px;
+  }
+  .options__input_animation {
+    top: 20px;
+  }
+  p,
+  span[class^="weather"] {
+    padding-top: 5px;
+  }
+  .weather_dimension {
+    height: 45%;
+  }
+  .weather__city-name {
+    padding-bottom: 10px;
+    text-shadow: 1px -1px 1px rgba(65, 101, 131, 0.99);
+  }
+  .weather__img-meteo {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+@media (max-width: 630px) {
+  body,
+  .options__input {
+    font-size: 18px;
+  }
+  .language-bar__select_style {
+    font-size: 13px;
+  }
+  .options__input_animation {
+    top: 20px;
+  }
+  p,
+  span[class^="weather"] {
+    padding-top: 5px;
+  }
+  .weather_dimension {
+    height: 40%;
+  }
+}
+
+@media (max-width: 630px) {
+  body,
+  .options__input {
+    font-size: 20px;
+  }
+  .language-bar__select_style {
+    font-size: 15px;
+  }
+}
+@media (max-width: 414px) {
+  .weather_dimension {
+    width: 90%;
+    height: 30%;
+  }
+  .options_dimension {
+    width: 90%;
+  }
+}
+
+@media (max-width: 411px) {
+  .weather_dimension {
+    height: 35%;
+    width: 85%;
+  }
+  .options_dimension {
+    width: 85%;
+  }
+  .options__input_animation {
+    top: 40px;
+  }
+}
+@media (max-width: 384px) {
+  body,
+  .options__input {
+    font-size: 15px;
+  }
+  .language-bar__select_style {
+    font-size: 12px;
+  }
+  .weather_dimension {
+    height: 40%;
+    width: 95%;
+  }
+  .options_dimension {
+    width: 95%;
+  }
+  .weather__img-meteo {
+    width: 130px;
+    height: 130px;
+  }
+}
+@media (max-width: 375px) {
+  .weather_dimension {
+    height: 35%;
+    width: 93%;
+  }
+  .options_dimension {
+    width: 93%;
+  }
+  .options__input_animation {
+    top: 30px;
+  }
+}
+
+@media (max-width: 360px) {
+  body,
+  .options__input {
+    font-size: 14px;
+  }
+  .language-bar__select_style {
+    font-size: 10px;
+  }
+  .weather_dimension {
+    height: 40%;
+    width: 90%;
+  }
+  .options_dimension {
+    width: 90%;
+  }
+  .options__input_animation {
+    top: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  body,
+  .options__input {
+    font-size: 13px;
+  }
+  .weather_dimension {
+    width: 95%;
+  }
+  .options_dimension {
+    width: 95%;
+  }
+}
+
+@media (max-width: 280px) {
+  body,
+  .options__input {
+    font-size: 11px;
+  }
+  .weather_dimension {
+    height: 35%;
+  }
+}*/
