@@ -530,8 +530,8 @@ span[class^="weather"] {
     top: 10%;
   }
   .weather__img-meteo {
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
   }
 }
 @media (max-width: 450px) {
