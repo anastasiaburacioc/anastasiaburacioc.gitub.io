@@ -524,8 +524,8 @@ span[class^="weather"] {
 }
 @media (max-height: 400px) {
   .weather_dimension {
-    height: 73%;
-    border: solid 2px blue;
+    height: 76%;
+    border: solid 2px red;
   }
   .options_position {
     top: 10%;
