@@ -23,36 +23,5 @@ md: {
     wind: ['viteza', 'vântului', 'm/s'],
     temperature: 'temperatura'
 }
-    /*
-    title: {
-        en: 'weather',
-        ru: 'погода',
-        md: 'vremea'
-    },
-    placeholder: {
-        en: 'enter city name',
-        ru: 'введите название города',
-        md: 'introduceți denumirea orașului'
-    },
-    'date-current': {
-        en: ['ianuary', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'],
-        ru: ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь'],
-        md: ['ianuarie', 'februarie', 'martie', 'aprilie', 'mai', 'iunie', 'iulie', 'august', 'septembrie', 'octombrie', 'noiembrie', 'decembrie']
-    },
-    'humidity-procent': {
-        en: 'humidity',
-        ru: 'влажность',
-        md: 'umiditate'
-    },
-    'wind-speed': {
-        en: ['wind', 'speed', 'm/s'],
-        ru: ['скорость', 'ветра', 'м/с'],
-        md: ['viteza', 'vântului', 'm/s']
-    },
-    'temp-grad': {
-        en: 'temperature',
-        ru: 'температура',
-        md: 'temperatura'
-    }*/
 };
 
