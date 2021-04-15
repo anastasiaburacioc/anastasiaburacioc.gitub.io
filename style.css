@@ -524,7 +524,7 @@ span[class^="weather"] {
 }
 @media (max-height: 400px) {
   .weather_dimension {
-    height: 65%;
+    height: 73%;
     border: solid 2px green;
   }
   .options_position {
@@ -533,6 +533,9 @@ span[class^="weather"] {
   .weather__img-meteo {
     width: 140px;
     height: 140px;
+  }
+  .weather_position {
+    top: 60%;
   }
 }
 @media (max-width: 450px) {
