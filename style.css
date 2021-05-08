@@ -206,7 +206,7 @@ section {
     }
 }
 .circle {
-    border: solid 2px red;
+    border: solid 2px green;
     position: relative;
     width: 16vw;
     height: 16vw;
