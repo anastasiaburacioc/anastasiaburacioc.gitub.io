@@ -6,7 +6,6 @@ let circle = document.querySelector('.circle');
 let mainSound = document.querySelector('.main-sound');
 function playSound() {
     mainSound.play();
-    circle.textContent = '123456';
 }
 
 
