@@ -19,7 +19,7 @@ function animateCircle() {
     circle.classList.add('animate-circle');
     section.classList.remove('displayNone');
     mainText.classList.remove('displayNone');
-    mainSound.play();
+
 }
 circle.onclick = animateCircle;
 
