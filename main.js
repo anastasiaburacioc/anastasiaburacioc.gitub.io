@@ -38,7 +38,7 @@ function animateCircle() {
     
     setTimeout(animatePage, 10000);
     setTimeout(appearHearts, 18000);
-    setTimeout(showFire, 21000);
+    setTimeout(showFire, 23000);
 }
 circle.onclick = animateCircle;
 
