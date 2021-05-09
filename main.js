@@ -139,8 +139,8 @@ setInterval(
   var c=Math.random()*100;
   if(c>percentAlive) DeleteObject(new FinalDraw);
  },timeInterval);
-
- box.remove();
+ let box = document.querySelector('.box');
+  box.remove();
   section.remove();
   document.querySelector('#div').classList.remove('displayNone');
   fireSound.play();
