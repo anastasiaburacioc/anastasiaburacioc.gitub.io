@@ -11,6 +11,21 @@ let section = document.querySelector('.section');
 let set = document.querySelector('.set');
 let mainText = document.querySelector('.main-text');
 
+let flowers = ['flower1', 'flower17', 'flower3', 'flower4', 'flower5', 'flower6', 'flower7', 'flower8', 'flower9', 'flower10', 'flower11', 'flower12', 'flower13', 'flower19', 'flower15', 'flower16', 'flower2', 'flower18', 'flower14', 'flower20', 'flower3', 'flower5', 'flower11', 'flower13', 'flower1']
+function createFlower() {
+  let flowerBox = document.createElement('div');
+  document.querySelector('.body').prepend(flowerBox);
+  flowerBox.classList.add('displayNone');
+  flowerBox.classList.add('flower-box');
+  let outInner = '';
+  flowers.forEach(item => {
+   outInner += `<div class='section__img-inner'><img src='images/${item}.jpg' class='section__img'></div>`;
+  });
+
+  flowerBox.innerHTML = outInner;
+}
+
+createFlower();
 
 function animateCircle() {
     document.querySelector('.circle_inner').remove();
@@ -23,7 +38,6 @@ function animateCircle() {
 }
 circle.onclick = animateCircle;
 
-let flowers = ['flower1', 'flower17', 'flower3', 'flower4', 'flower5', 'flower6', 'flower7', 'flower8', 'flower9', 'flower10', 'flower11', 'flower12', 'flower13', 'flower19', 'flower15', 'flower16', 'flower2', 'flower18', 'flower14', 'flower20', 'flower3', 'flower5', 'flower11', 'flower13', 'flower1']
 
 function animatePage() {
   
@@ -32,11 +46,9 @@ function animatePage() {
     section.classList.add('section_bg');
     section.classList.add('section_two');
   
-    let outInner = '';
-      flowers.forEach(item => {
-       outInner += `<div class='section__img-inner'><img src='images/${item}.jpg' class='section__img'></div>`;
-      });
-    section.innerHTML = outInner;
+    let flowerBox = document.querySelector('.flower-box');
+    flowerBox.classList.remove('displayNone');
+   
 }
 setTimeout(animatePage, 10000);
 
@@ -139,10 +151,10 @@ setInterval(
   var c=Math.random()*100;
   if(c>percentAlive) DeleteObject(new FinalDraw);
  },timeInterval);
- let box = document.querySelector('.box');
-  box.remove();
+let box = document.querySelector('.box');
+ box.remove();
   section.remove();
   document.querySelector('#div').classList.remove('displayNone');
   fireSound.play();
 }
-setTimeout(showFire, 25000);
+setTimeout(showFire, 20000);
