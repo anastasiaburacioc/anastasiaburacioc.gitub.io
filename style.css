@@ -24,79 +24,79 @@ section {
     grid-template-rows: 20% 20% 20% 20% 20%; 
 }
 .section__img-inner:nth-child(1) {
-    animation: animateImg 5s ease-out infinite;
+    animation: animateImg 2s ease-out infinite;
 }
 .section__img-inner:nth-child(2) {
-    animation: animateImg 5s ease-out 1s infinite;
+    animation: animateImg 2s ease-out 1s infinite;
 }
 .section__img-inner:nth-child(3) {
-    animation: animateImg 5s ease-out 2s infinite;
+    animation: animateImg 2s ease-out 2s infinite;
 }
 .section__img-inner:nth-child(4) {
-    animation: animateImg 5s ease-out 3s infinite;
+    animation: animateImg 2s ease-out 3s infinite;
 }
 .section__img-inner:nth-child(5) {
-    animation: animateImg 5s ease-out 4s infinite;
+    animation: animateImg 2s ease-out 4s infinite;
 }
 .section__img-inner:nth-child(6) {
-    animation: animateImg 5s ease-out 5s infinite;
+    animation: animateImg 2s ease-out 5s infinite;
 }
 .section__img-inner:nth-child(7) {
-    animation: animateImg 5s ease-out 6s infinite;
+    animation: animateImg 2s ease-out 6s infinite;
 }
 .section__img-inner:nth-child(8) {
-    animation: animateImg 5s ease-out 7s infinite;
+    animation: animateImg 2s ease-out 7s infinite;
 }
 .section__img-inner:nth-child(9) {
-    animation: animateImg 5s ease-out 8s infinite;
+    animation: animateImg 2s ease-out 8s infinite;
 }
 .section__img-inner:nth-child(10) {
-    animation: animateImg 5s ease-out 9s infinite;
+    animation: animateImg 2s ease-out 9s infinite;
 }
 .section__img-inner:nth-child(11) {
-    animation: animateImg 5s ease-out 10s infinite;
+    animation: animateImg 2s ease-out 10s infinite;
 }
 .section__img-inner:nth-child(12) {
-    animation: animateImg 5s ease-out 11s infinite;
+    animation: animateImg 2s ease-out 11s infinite;
 }
 .section__img-inner:nth-child(13) {
-    animation: animateImg 5s ease-out 12s infinite;
+    animation: animateImg 2s ease-out 12s infinite;
 }
 .section__img-inner:nth-child(14) {
-    animation: animateImg 5s ease-out 13s infinite;
+    animation: animateImg 2s ease-out 13s infinite;
 }
 .section__img-inner:nth-child(15) {
-    animation: animateImg 5s ease-out 14s infinite;
+    animation: animateImg 2s ease-out 14s infinite;
 }
 .section__img-inner:nth-child(16) {
-    animation: animateImg 5s ease-out 15s infinite;
+    animation: animateImg 2s ease-out 15s infinite;
 }
 .section__img-inner:nth-child(17) {
-    animation: animateImg 5s ease-out 16s infinite;
+    animation: animateImg 2s ease-out 16s infinite;
 }
 .section__img-inner:nth-child(18) {
-    animation: animateImg 5s ease-out 17s infinite;
+    animation: animateImg 2s ease-out 17s infinite;
 }
 .section__img-inner:nth-child(19) {
-    animation: animateImg 5s ease-out 18s infinite;
+    animation: animateImg 2s ease-out 18s infinite;
 }
 .section__img-inner:nth-child(20) {
-    animation: animateImg 5s ease-out 19s infinite;
+    animation: animateImg 2s ease-out 19s infinite;
 }
 .section__img-inner:nth-child(21) {
-    animation: animateImg 5s ease-out 20s infinite;
+    animation: animateImg 2s ease-out 20s infinite;
 }
 .section__img-inner:nth-child(22) {
-    animation: animateImg 5s ease-out 21s infinite;
+    animation: animateImg 2s ease-out 21s infinite;
 }
 .section__img-inner:nth-child(23) {
-    animation: animateImg 5s ease-out 22s infinite;
+    animation: animateImg 2s ease-out 22s infinite;
 }
 .section__img-inner:nth-child(24) {
-    animation: animateImg 5s ease-out 23s infinite;
+    animation: animateImg 2s ease-out 23s infinite;
 }
 .section__img-inner:nth-child(25) {
-    animation: animateImg 5s ease-out 24s infinite;
+    animation: animateImg 2s ease-out 24s infinite;
 }
 .section__img {
     width: 23vw;
