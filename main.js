@@ -35,6 +35,10 @@ function animateCircle() {
     container.remove();
     circle.remove(); 
     mainSound.play();
+    
+    setTimeout(animatePage, 10000);
+    setTimeout(appearHearts, 18000);
+    setTimeout(showFire, 21000);
 }
 circle.onclick = animateCircle;
 
@@ -50,7 +54,7 @@ function animatePage() {
     flowerBox.classList.remove('displayNone');
    
 }
-setTimeout(animatePage, 10000);
+
 
 let hearts = ['heart1', 'heart2', 'heart3', 'heart1', 'heart2', 'heart3', 'heart1', 'heart2', 'heart3', 'heart1', 'heart2', 'heart3'];
 
@@ -67,7 +71,7 @@ function appearHearts() {
     box.innerHTML = outInner;
 
 }
-setTimeout(appearHearts, 18000);
+
 
 function showFire() {
   var b = document.getElementById("div");
@@ -157,4 +161,3 @@ let box = document.querySelector('.box');
   document.querySelector('#div').classList.remove('displayNone');
   fireSound.play();
 }
-setTimeout(showFire, 20000);
