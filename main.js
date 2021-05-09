@@ -27,7 +27,7 @@ let flowers = ['flower1', 'flower17', 'flower3', 'flower4', 'flower5', 'flower6'
 
 function animatePage() {
   
-    set.remove(); 
+    set.remove();
     mainText.remove();
     section.classList.add('section_bg');
     section.classList.add('section_two');
@@ -38,8 +38,24 @@ function animatePage() {
       });
     section.innerHTML = outInner;
 }
-setTimeout(animatePage, 15000);
+setTimeout(animatePage, 10000);
 
+let hearts = ['heart1', 'heart2', 'heart3', 'heart1', 'heart2', 'heart3', 'heart1', 'heart2', 'heart3', 'heart1', 'heart2', 'heart3'];
+
+function appearHearts() {
+  section.remove();
+  let box = document.createElement('div');
+  document.querySelector('.body').prepend(box);
+  box.classList.add('box');
+
+  let outInner = '';
+    hearts.forEach(item => {
+       outInner += `<div class='box__img-inner'><img src='images/${item}.png' class='box__img'></div>`;
+      });
+    box.innerHTML = outInner;
+
+}
+setTimeout(appearHearts, 18000);
 
 function showFire() {
   var b = document.getElementById("div");
@@ -124,8 +140,9 @@ setInterval(
   if(c>percentAlive) DeleteObject(new FinalDraw);
  },timeInterval);
 
+ box.remove();
   section.remove();
   document.querySelector('#div').classList.remove('displayNone');
   fireSound.play();
 }
-setTimeout(showFire, 30000);
+setTimeout(showFire, 25000);
