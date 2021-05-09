@@ -131,9 +131,7 @@ section {
     }
 }
 .section_bg {
-    background: linear-gradient(217deg, rgba(10, 216, 120, 0.8), rgba(157, 255, 0, 0.329) 70.71%),
-            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0, 255, 0, 0.37) 70.71%),
-            linear-gradient(336deg, rgba(115, 255, 0, 0.8), rgba(0, 255, 76, 0.308) 70.71%);
+    background: linear-gradient(45deg, rgba(225,237,24,1) 16%, rgba(231,185,44,1) 82%);
 }
 .set_content {
     width: 10vw;
