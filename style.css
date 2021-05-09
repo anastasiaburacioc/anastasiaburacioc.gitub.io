@@ -18,115 +18,171 @@ section {
     width: 100%;
     height: 100%;
 }
-.section_two {
+/*.section_two {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20% 20%; 
-}
+}*/
 .section__img-inner:nth-child(1) {
-    animation: animateImg 2s ease-out infinite;
+    animation: animateImg  5s linear 0s forwards;
+    left: 35%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(2) {
-    animation: animateImg 2s ease-out 1s infinite;
+    animation: animateImg  5s linear 0.5s forwards;
+    left: 70%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(3) {
-    animation: animateImg 2s ease-out 2s infinite;
+    animation: animateImg  5s linear 1s forwards;
+    left: 60%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(4) {
-    animation: animateImg 2s ease-out 3s infinite;
+    animation: animateImg  5s linear 1.5s forwards;
+    left: 50%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(5) {
-    animation: animateImg 2s ease-out 4s infinite;
+    animation: animateImg  5s linear 2s forwards;
+    left: 40%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(6) {
-    animation: animateImg 2s ease-out 5s infinite;
+    animation: animateImg  5s linear 2.5s forwards;
+    left: 30%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(7) {
-    animation: animateImg 2s ease-out 6s infinite;
+    animation: animateImg  5s linear 3s forwards;
+    left: 20%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(8) {
-    animation: animateImg 2s ease-out 7s infinite;
+    animation: animateImg  5s linear 2s forwards;
+    left: 10%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(9) {
-    animation: animateImg 2s ease-out 8s infinite;
+    animation: animateImg  5s linear 3s forwards;
+    left: 0%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(10) {
-    animation: animateImg 2s ease-out 9s infinite;
+    animation: animateImg  5s linear 2.5s forwards;
+    left: 15%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(11) {
-    animation: animateImg 2s ease-out 10s infinite;
+    animation: animateImg  5s linear 1.5s forwards;
+    left: 25%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(12) {
-    animation: animateImg 2s ease-out 11s infinite;
+    animation: animateImg  5s linear 3s forwards;
+    left: 35%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(13) {
-    animation: animateImg 2s ease-out 12s infinite;
+    animation: animateImg  5s linear 3s forwards;
+    left: 0%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(14) {
-    animation: animateImg 2s ease-out 13s infinite;
+    animation: animateImg  5s linear 2s forwards;
+    left: 55%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(15) {
-    animation: animateImg 2s ease-out 14s infinite;
+    animation: animateImg  5s linear 3s forwards;
+    left: 65%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(16) {
-    animation: animateImg 2s ease-out 15s infinite;
+    animation: animateImg  5s linear 2.5s forwards;
+    left: 75%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(17) {
-    animation: animateImg 2s ease-out 16s infinite;
+    animation: animateImg  5s linear 1.5s forwards;
+    left: 85%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(18) {
-    animation: animateImg 2s ease-out 17s infinite;
+    animation: animateImg  5s linear 2.5s forwards;
+    left: 95%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(19) {
-    animation: animateImg 2s ease-out 18s infinite;
+    animation: animateImg  5s linear 1s forwards;
+    left: 10%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(20) {
-    animation: animateImg 2s ease-out 19s infinite;
+    animation: animateImg  5s linear 2s forwards;
+    left: 20%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(21) {
-    animation: animateImg 2s ease-out 20s infinite;
+    animation: animateImg  5s linear 3s forwards;
+    left: 30%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(22) {
-    animation: animateImg 2s ease-out 21s infinite;
+    animation: animateImg  5s linear 2.5s forwards;
+    left: 40%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(23) {
-    animation: animateImg 2s ease-out 22s infinite;
+    animation: animateImg  5s linear 1.5s forwards;
+    left: 0%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(24) {
-    animation: animateImg 2s ease-out 23s infinite;
+    animation: animateImg  5s linear 0.5s forwards;
+    left: 0%;
+    transform: translateY(100vh);
 }
 .section__img-inner:nth-child(25) {
-    animation: animateImg 2s ease-out 24s infinite;
+    animation: animateImg  5s linear forwards;
+    left: 70%;
+    transform: translateY(100vh);
 }
-.section__img {
+.section__img-inner {
     width: 23vw;
     height: 23vw;
+    position: absolute;
+    left: 0;
+}
+.section__img {
+    width: 100%;
+    height: 100%;
 }
 @keyframes animateImg {
     0% {
         opacity: 0;
-        transform: translateY(100vh) rotate(0deg);
+        transform: translateY(100vh) rotate(30deg);
         z-index: 1;
     }
     20% {
         opacity: 1;
-        transform: translateY(90vh) rotate(45deg);
+        transform: translateY(90vh) ;
         z-index: 1;
     }
     40% {
-        transform: translateY(60vh) rotate(-30deg);
+        transform: translateY(60vh) ;
         z-index: 1;
     }
     60% {
-        transform: translateY(40vh) rotate(45deg);
+        transform: translateY(40vh) ;
         z-index: 1;
     }
     80% {
-        transform: translateY(20vh) rotate(-20deg);
+        transform: translateY(20vh) ;
         z-index: 1;
     }
     100% {
-        transform: translateY(8vh) rotate(45deg);
+        transform: translateY(-80vh) rotate(360deg);
         z-index: 1;
     }
 }
@@ -309,7 +365,7 @@ section {
 .main-text h1 {
     text-align: center;
     font-size: 7vw;
-    color: rgb(208, 230, 128);
+    color: rgba(74, 180, 25, 0.842);
     text-shadow: 1px 1px 2px rgb(153, 180, 32), 0 0 5em rgb(4, 94, 79), 0 0 0.2em rgb(226, 223, 55);
     animation: text-transform 2s linear infinite;
 }
@@ -372,5 +428,111 @@ section {
     }
     100% {
         transform: translate(150vh), scale(120);
+    }
+}
+.box__img-inner {
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    display: block;
+}
+.box__img {
+    width: 100%;
+    height: 100%;
+}
+.box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+} 
+.box__img-inner:nth-child(1) {
+    left: 20%;
+    transform: translateY(100vh);
+    animation: heart2 5s linear both infinite;
+} 
+.box__img-inner:nth-child(2) {
+    left: 30%;
+    transform: translateY(100vh);
+    animation: heart2 5s linear both 0.5s infinite;
+} 
+.box__img-inner:nth-child(3) {
+    left: 40%;
+    transform: translateY(100vh);
+    animation: heart2 5s linear both 1s infinite;
+} 
+.box__img-inner:nth-child(4) {
+    left: 50%;
+    transform: translateY(100vh);
+    animation: heart2 5s linear both 1.5s infinite;
+} 
+.box__img-inner:nth-child(5) {
+    left: 60%;
+    transform: translateY(100vh);
+    animation: heart2 5s linear both 2s infinite;
+} 
+.box__img-inner:nth-child(6) {
+    left: 70%;
+    transform: translateY(100vh);
+    animation: heart2 5s linear both 2.5s infinite;
+} 
+.box__img-inner:nth-child(7) {
+    left: 80%;
+    transform: translateY(100vh);
+    animation: heart2 5s linear both 1.5s infinite;
+} 
+.box__img-inner:nth-child(8) {
+    left: 90%;
+    transform: translateY(100vh);
+    animation: heart2 5s linear both 0.5s infinite;
+} 
+.box__img-inner:nth-child(9) {
+    left: 10%;
+    transform: translateY(100vh);
+    animation: heart2 5s linear both 2s infinite;
+} 
+.box__img-inner:nth-child(10) {
+    left: 0%;
+    transform: translateY(100vh);
+    animation: heart2 5s linear both infinite;
+} 
+.box__img-inner:nth-child(11) {
+    left: 35%;
+    transform: translateY(100vh);
+    animation: heart2 5s linear both 2.5s infinite;
+} 
+.box__img-inner:nth-child(12) {
+    left: 75%;
+    transform: translateY(100vh);
+    animation: heart2 5s linear both 1s infinite;
+}
+
+@keyframes heart2 {
+    0% {
+        opacity: 0;
+        transform: translateY(0vh) rotate(0deg);
+        z-index: 1;
+    }
+    20% {
+        opacity: 1;
+        transform: translateY(20vh) rotate(45deg);
+        z-index: 1;
+    }
+    40% {
+        transform: translateY(40vh) rotate(-30deg);
+        z-index: 1;
+    }
+    60% {
+        transform: translateY(60vh) rotate(45deg);
+        z-index: 1;
+    }
+    80% {
+        transform: translateY(80vh) rotate(-20deg);
+        z-index: 1;
+    }
+    100% {
+        transform: translateY(100vh) rotate(45deg);
+        z-index: 1;
     }
 }
