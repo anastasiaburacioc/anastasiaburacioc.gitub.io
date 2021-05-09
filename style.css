@@ -7,6 +7,9 @@
 }
 body {
     overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(225,237,24,1) 16%, rgba(231,185,44,1) 82%);
 }
 .displayNone {
     display: none;
@@ -14,6 +17,106 @@ body {
 section {
     width: 100%;
     height: 100%;
+}
+.section_two {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%; 
+}
+.section__img-inner:nth-child(1) {
+    animation: animateImg 25s ease-out infinite;
+}
+.section__img-inner:nth-child(2) {
+    animation: animateImg 25s ease-out 1s infinite;
+}
+.section__img-inner:nth-child(3) {
+    animation: animateImg 25s ease-out 2s infinite;
+}
+.section__img-inner:nth-child(4) {
+    animation: animateImg 25s ease-out 3s infinite;
+}
+.section__img-inner:nth-child(5) {
+    animation: animateImg 25s ease-out 4s infinite;
+}
+.section__img-inner:nth-child(6) {
+    animation: animateImg 25s ease-out 5s infinite;
+}
+.section__img-inner:nth-child(7) {
+    animation: animateImg 25s ease-out 6s infinite;
+}
+.section__img-inner:nth-child(8) {
+    animation: animateImg 25s ease-out 7s infinite;
+}
+.section__img-inner:nth-child(9) {
+    animation: animateImg 25s ease-out 8s infinite;
+}
+.section__img-inner:nth-child(10) {
+    animation: animateImg 25s ease-out 9s infinite;
+}
+.section__img-inner:nth-child(11) {
+    animation: animateImg 25s ease-out 10s infinite;
+}
+.section__img-inner:nth-child(12) {
+    animation: animateImg 25s ease-out 11s infinite;
+}
+.section__img-inner:nth-child(13) {
+    animation: animateImg 25s ease-out 12s infinite;
+}
+.section__img-inner:nth-child(14) {
+    animation: animateImg 25s ease-out 13s infinite;
+}
+.section__img-inner:nth-child(15) {
+    animation: animateImg 25s ease-out 14s infinite;
+}
+.section__img-inner:nth-child(16) {
+    animation: animateImg 25s ease-out 15s infinite;
+}
+.section__img-inner:nth-child(17) {
+    animation: animateImg 25s ease-out 16s infinite;
+}
+.section__img-inner:nth-child(18) {
+    animation: animateImg 25s ease-out 17s infinite;
+}
+.section__img-inner:nth-child(19) {
+    animation: animateImg 25s ease-out 18s infinite;
+}
+.section__img-inner:nth-child(20) {
+    animation: animateImg 25s ease-out 19s infinite;
+}
+.section__img-inner:nth-child(21) {
+    animation: animateImg 25s ease-out 20s infinite;
+}
+.section__img-inner:nth-child(22) {
+    animation: animateImg 25s ease-out 21s infinite;
+}
+.section__img-inner:nth-child(23) {
+    animation: animateImg 25s ease-out 22s infinite;
+}
+.section__img-inner:nth-child(24) {
+    animation: animateImg 25s ease-out 23s infinite;
+}
+.section__img-inner:nth-child(25) {
+    animation: animateImg 25s ease-out 24s infinite;
+}
+.section__img {
+    width: 23vw;
+    height: 23vw;
+}
+@keyframes animateImg {
+    0% {
+        transform: scale(0);
+    }
+    2.222% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.5);
+    }
+}
+.section_bg {
+    background: linear-gradient(217deg, rgba(10, 216, 120, 0.8), rgba(157, 255, 0, 0.329) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0, 255, 0, 0.37) 70.71%),
+            linear-gradient(336deg, rgba(115, 255, 0, 0.8), rgba(0, 255, 76, 0.308) 70.71%);
 }
 .set_content {
     width: 10vw;
@@ -36,88 +139,89 @@ section {
 }
 .set div:nth-child(1) {
     left: 20%;
-    animation: heart 14s linear infinite;
-    z-index: 1;
+    animation: heart 9s linear both infinite;
 }
 .set div:nth-child(2) {
     left: 90%;
     transform: translateY(100vh);
-    animation: heart 13s linear 2s infinite;
+    animation: heart 9s linear 2s both infinite;
 }
 .set div:nth-child(3) {
     left: 45%;
     transform: translateY(100vh);
-    animation: heart 15s linear 4s infinite;
-    z-index: 1;
+    animation: heart 9s linear 4s both infinite;
 }
 .set div:nth-child(4) {
     left: 80%;
     transform: translateY(100vh);
-    animation: heart 14s linear 6s infinite;
+    animation: heart 9s linear 6s both infinite;
 }
 .set div:nth-child(5) {
     left: 0%;
     transform: translateY(100vh);
-    animation: heart 13s linear 8s infinite;
-    z-index: 1;
+    animation: heart 9s linear 8s both infinite;
 }
 .set div:nth-child(6) {
     left: 5%;
     transform: translateY(100vh);
-    animation: heart 15s linear 10s infinite;
+    animation: heart 9s linear 10s both infinite;
 }
 .set div:nth-child(7) {
     left: 15%;
     transform: translateY(100vh);
-    animation: heart 14s linear 12s infinite;
-    z-index: 1;
+    animation: heart 9s linear 12s both infinite;
 }
 .set div:nth-child(8) {
     left: 35%;
     transform: translateY(100vh);
-    animation: heart 13s linear 14s infinite;
+    animation: heart 9s linear 14s both infinite;
 }
 .set div:nth-child(9) {
     left: 70%;
     transform: translateY(100vh);
-    animation: heart 15s linear 16s infinite;
+    animation: heart 9s linear 16s both infinite;
 }
 .set div:nth-child(10) {
     left: 52%;
     transform: translateY(100vh);
-    animation: heart 14s linear 18s infinite;
+    animation: heart 9s linear 18s both infinite;
 }
 .set div:nth-child(11) {
     left: 62%;
     transform: translateY(100vh);
-    animation: heart 13s linear 20s infinite;
-    z-index: 1;
+    animation: heart 9s linear 20s both infinite;
 }
 .set div:nth-child(12) {
     left: 25%;
     transform: translateY(100vh);
-    animation: heart 15s linear 1s infinite;
+    animation: heart 9s linear 1s both infinite;
 }
 @keyframes heart {
     0% {
         opacity: 0;
         transform: translateY(100vh) rotate(0deg);
+        z-index: 1;
     }
     20% {
         opacity: 1;
         transform: translateY(90vh) rotate(45deg);
+        z-index: 1;
     }
     40% {
         transform: translateY(60vh) rotate(-30deg);
+        z-index: 1;
     }
     60% {
         transform: translateY(40vh) rotate(45deg);
+        z-index: 1;
     }
     80% {
         transform: translateY(20vh) rotate(-20deg);
+        z-index: 1;
     }
     100% {
-        transform: translateY(-20vh) rotate(45deg);
+        transform: translateY(8vh) rotate(45deg);
+        z-index: 1;
     }
 }
 .containner {
@@ -129,7 +233,7 @@ section {
     overflow: hidden;
 }
 .test {
-    background: radial-gradient(transparent, #ec90d8);
+    background: radial-gradient(transparent, #f1a138);
     font-size: 100px;
     line-height: 1.5;
     text-align: center;
@@ -185,7 +289,7 @@ section {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    
+    z-index: 1;
 }
 .main-text h1 {
     text-align: center;
@@ -206,7 +310,6 @@ section {
     }
 }
 .circle {
-    border: solid 2px green;
     position: relative;
     width: 16vw;
     height: 16vw;
@@ -218,12 +321,15 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-box-shadow: 0px 0px 30px 0px rgba(225,237,24,1);
--moz-box-shadow:    0px 0px 30px 0px rgba(225,237,24,1);
-box-shadow:         0px 0px 30px 0px rgba(225,237,24,1);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(225,237,24,1);
+    box-shadow:         0px 0px 30px 0px rgba(225,237,24,1);
     cursor: pointer;
 }
-.animate-circle {
-    animation: circleMove 6s linear forwards;
+.animate-circle1 {
+    animation: circleMove1 12s linear forwards;
+}
+.animate-circle2 {
+    animation: circleMove2 3s linear forwards;
 }
 .circle div {
     position: absolute;
@@ -236,13 +342,20 @@ box-shadow:         0px 0px 30px 0px rgba(225,237,24,1);
     text-align: center;
     font-size: 4vw;
 
-}
-    
-@keyframes circleMove {
+} 
+@keyframes circleMove1 {
     0% {
         transform: scale(0);
     }
     100% {
         transform: scale(120);
+    }
+}  
+@keyframes circleMove2 {
+    0% {
+        transform: translate(0vh), scale(120);
+    }
+    100% {
+        transform: translate(150vh), scale(120);
     }
 }
