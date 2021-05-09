@@ -365,7 +365,7 @@ section {
 .main-text h1 {
     text-align: center;
     font-size: 7vw;
-    color: rgba(74, 180, 25, 0.842);
+    color: rgba(41, 131, 5, 0.842);
     text-shadow: 1px 1px 2px rgb(153, 180, 32), 0 0 5em rgb(4, 94, 79), 0 0 0.2em rgb(226, 223, 55);
     animation: text-transform 2s linear infinite;
 }
