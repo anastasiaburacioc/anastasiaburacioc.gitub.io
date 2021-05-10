@@ -50,27 +50,27 @@ section {
 }
 .section__img-inner:nth-child(6) {
     animation: animateImg  5s linear 0.7s forwards;
-    left: 10%;
+    left: 5%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(7) {
     animation: animateImg  5s linear 0.7s forwards;
-    left: 30%;
+    left: 25%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(8) {
     animation: animateImg  5s linear 0.7s forwards;
-    left: 50%;
+    left: 45%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(9) {
     animation: animateImg  5s linear 0.7s forwards;
-    left: 70%;
+    left: 65%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(10) {
     animation: animateImg  5s linear 0.7s forwards;
-    left: 90%;
+    left: 85%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(11) {
@@ -100,27 +100,27 @@ section {
 }
 .section__img-inner:nth-child(16) {
     animation: animateImg  5s linear 2.1s forwards;
-    left: 10%;
+    left: 5%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(17) {
     animation: animateImg  5s linear 2.1s forwards;
-    left: 30%;
+    left: 25%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(18) {
     animation: animateImg  5s linear 2.1s forwards;
-    left: 50%;
+    left: 45%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(19) {
     animation: animateImg  5s linear 2.1s forwards;
-    left: 70%;
+    left: 65%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(20) {
     animation: animateImg  5s linear 2.1s forwards;
-    left: 90%;
+    left: 85%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(21) {
@@ -381,6 +381,7 @@ section {
     }
 }
 .circle {
+    border: solid 2px red;
     position: relative;
     width: 16vw;
     height: 16vw;
