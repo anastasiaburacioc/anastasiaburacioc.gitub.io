@@ -25,127 +25,127 @@ section {
 }*/
 .section__img-inner:nth-child(1) {
     animation: animateImg  5s linear 0s forwards;
-    left: 18%;
+    left: 0%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(2) {
     animation: animateImg  5s linear 0s forwards;
-    left: 36%;
+    left: 20%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(3) {
     animation: animateImg  5s linear 0s forwards;
-    left: 54%;
+    left: 40%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(4) {
     animation: animateImg  5s linear 0s forwards;
-    left: 72%;
+    left: 60%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(5) {
     animation: animateImg  5s linear 0s forwards;
-    left: 93%;
+    left: 80%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(6) {
-    animation: animateImg  5s linear 0.5s forwards;
-    left: 9%;
+    animation: animateImg  5s linear 0.7s forwards;
+    left: 10%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(7) {
-    animation: animateImg  5s linear 0.5s forwards;
-    left: 27%;
+    animation: animateImg  5s linear 0.7s forwards;
+    left: 30%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(8) {
-    animation: animateImg  5s linear 0.5s forwards;
-    left: 42%;
+    animation: animateImg  5s linear 0.7s forwards;
+    left: 50%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(9) {
-    animation: animateImg  5s linear 0.5s forwards;
-    left: 62%;
+    animation: animateImg  5s linear 0.7s forwards;
+    left: 70%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(10) {
-    animation: animateImg  5s linear 0.5s forwards;
-    left: 81%;
+    animation: animateImg  5s linear 0.7s forwards;
+    left: 90%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(11) {
-    animation: animateImg  5s linear 1s forwards;
-    left: 18%;
+    animation: animateImg  5s linear 1.4s forwards;
+    left: 0%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(12) {
-    animation: animateImg  5s linear 1s forwards;
-    left: 36%;
+    animation: animateImg  5s linear 1.4s forwards;
+    left: 20%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(13) {
-    animation: animateImg  5s linear 1s forwards;
-    left: 54%;
+    animation: animateImg  5s linear 1.4s forwards;
+    left: 40%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(14) {
-    animation: animateImg  5s linear 1s forwards;
-    left: 72%;
+    animation: animateImg  5s linear 1.4s forwards;
+    left: 60%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(15) {
-    animation: animateImg  5s linear 1s forwards;
-    left: 93%;
+    animation: animateImg  5s linear 1.4s forwards;
+    left: 80%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(16) {
-    animation: animateImg  5s linear 1.5s forwards;
-    left: 9%;
+    animation: animateImg  5s linear 2.1s forwards;
+    left: 10%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(17) {
-    animation: animateImg  5s linear 1.5s forwards;
-    left: 27%;
+    animation: animateImg  5s linear 2.1s forwards;
+    left: 30%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(18) {
-    animation: animateImg  5s linear 1.5s forwards;
-    left: 42%;
+    animation: animateImg  5s linear 2.1s forwards;
+    left: 50%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(19) {
-    animation: animateImg  5s linear 1.5s forwards;
-    left: 62%;
+    animation: animateImg  5s linear 2.1s forwards;
+    left: 70%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(20) {
-    animation: animateImg  5s linear 1.5s forwards;
-    left: 81%;
+    animation: animateImg  5s linear 2.1s forwards;
+    left: 90%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(21) {
-    animation: animateImg  5s linear 2s forwards;
-    left: 18%;
+    animation: animateImg  5s linear 2.8s forwards;
+    left: 0%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(22) {
-    animation: animateImg  5s linear 2s forwards;
-    left: 36%;
+    animation: animateImg  5s linear 2.8s forwards;
+    left: 20%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(23) {
-    animation: animateImg  5s linear 2s forwards;
-    left: 54%;
+    animation: animateImg  5s linear 2.8s forwards;
+    left: 40%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(24) {
-    animation: animateImg  5s linear 2s forwards;
-    left: 72%;
+    animation: animateImg  5s linear 2.8s forwards;
+    left: 60%;
     transform: translateY(100vh);
 }
 .section__img-inner:nth-child(25) {
-    animation: animateImg  5s linear 2s forwards;
-    left: 93%;
+    animation: animateImg  5s linear 2.8s forwards;
+    left: 80%;
     transform: translateY(100vh);
 }
 .section__img-inner {
